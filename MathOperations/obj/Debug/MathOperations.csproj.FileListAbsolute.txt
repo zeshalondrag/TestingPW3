@@ -1,0 +1,6 @@
+C:\Users\yaney\source\repos\MathOperations\MathOperations\bin\Debug\MathOperations.dll
+C:\Users\yaney\source\repos\MathOperations\MathOperations\bin\Debug\MathOperations.pdb
+C:\Users\yaney\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.csproj.AssemblyReference.cache
+C:\Users\yaney\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.csproj.CoreCompileInputs.cache
+C:\Users\yaney\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.dll
+C:\Users\yaney\source\repos\MathOperations\MathOperations\obj\Debug\MathOperations.pdb

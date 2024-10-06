@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yaney\\source\\repos\\MathOperations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{663D55E5-C72C-4891-AD73-A708913609A6}|MathOperations.Tests\\MathOperations.Tests.csproj|c:\\users\\yaney\\source\\repos\\mathoperations\\mathoperations.tests\\mathoptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{663D55E5-C72C-4891-AD73-A708913609A6}|MathOperations.Tests\\MathOperations.Tests.csproj|solutionrelative:mathoperations.tests\\mathoptests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A96CA24-3850-463A-998D-1A2750667342}|MathOperations\\MathOperations.csproj|c:\\users\\yaney\\source\\repos\\mathoperations\\mathoperations\\mathop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A96CA24-3850-463A-998D-1A2750667342}|MathOperations\\MathOperations.csproj|solutionrelative:mathoperations\\mathop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MathOP.cs",
+              "DocumentMoniker": "C:\\Users\\yaney\\source\\repos\\MathOperations\\MathOperations\\MathOP.cs",
+              "RelativeDocumentMoniker": "MathOperations\\MathOP.cs",
+              "ToolTip": "C:\\Users\\yaney\\source\\repos\\MathOperations\\MathOperations\\MathOP.cs",
+              "RelativeToolTip": "MathOperations\\MathOP.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:22:04.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MathOPTests.cs",
+              "DocumentMoniker": "C:\\Users\\yaney\\source\\repos\\MathOperations\\MathOperations.Tests\\MathOPTests.cs",
+              "RelativeDocumentMoniker": "MathOperations.Tests\\MathOPTests.cs",
+              "ToolTip": "C:\\Users\\yaney\\source\\repos\\MathOperations\\MathOperations.Tests\\MathOPTests.cs",
+              "RelativeToolTip": "MathOperations.Tests\\MathOPTests.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T10:22:45.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
