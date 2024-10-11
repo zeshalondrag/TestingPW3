@@ -1,39 +1,58 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace MathOperations.Tests
 {
     [TestClass]
     public class MathOPTests
     {
+        private static List<double[]> testCasesRoots;
+        private static double total;
+        private static double percentage;
+        private static double expectedPercentage;
+        private static double delta;
+
+        [ClassInitialize]
+        public static void Initialize(TestContext context)
+        {
+            testCasesRoots = new List<double[]>
+            {
+                new double[] { 1, 2, 5 }, 
+                new double[] { 1, 2, 1 }, 
+                new double[] { 1, -3, 2 } 
+            };
+
+            total = 500.0;
+            percentage = 12.5;
+            expectedPercentage = 63.0;
+            delta = 0.5;
+        }
+
         [TestMethod]
         public void FindTheRoot_DiscriminantLessThanZero_NoRealRoots()
         {
-            CollectionAssert.AreEqual(new double[] { }, MathOP.FindTheRoot(1, 2, 5));
+            CollectionAssert.AreEqual(new double[] { }, MathOP.FindTheRoot(testCasesRoots[0][0], testCasesRoots[0][1], testCasesRoots[0][2]));
         }
 
         [TestMethod]
         public void FindTheRoot_DiscriminantEqualsZero_OneRealRoot()
         {
-            CollectionAssert.AreEquivalent(new double[] { -1 }, MathOP.FindTheRoot(1, 2, 1));
+            CollectionAssert.AreEquivalent(new double[] { -1 }, MathOP.FindTheRoot(testCasesRoots[1][0], testCasesRoots[1][1], testCasesRoots[1][2]));
         }
 
         [TestMethod]
         public void FindTheRoot_DiscriminantGreaterThanZero_TwoUniqueRealRoots()
         {
-            CollectionAssert.AllItemsAreUnique(MathOP.FindTheRoot(1, -3, 2)); 
-            CollectionAssert.AreEquivalent(new double[] { 2, 1 }, MathOP.FindTheRoot(1, -3, 2));
+            double[] roots = MathOP.FindTheRoot(testCasesRoots[2][0], testCasesRoots[2][1], testCasesRoots[2][2]);
+            CollectionAssert.AllItemsAreUnique(roots);
+            CollectionAssert.AreEquivalent(new double[] { 2, 1 }, roots);
         }
 
         [TestMethod]
         public void CalculatePercentage_ValidInput_CorrectResultWithDelta()
         {
-            double total = 200.0;
-            double percentage = 15.0;
-            double expected = 30.0; 
             double actual = MathOP.CalculatePercentage(total, percentage);
-            double delta = 0.001; 
-
-            Assert.AreEqual(expected, actual, delta, $"Ошибка: {percentage}% от {total} должно быть {expected}, но получено {actual}.");
+            Assert.AreEqual(expectedPercentage, actual, delta, $"Ошибка: {percentage}% от {total} должно быть {expectedPercentage}, но получено {actual}.");
         }
     }
 }
